@@ -66,12 +66,14 @@ const App = () => {
         value={input1}
         onChange={(e) => setInput1(e.target.value)}
         data-testid="input1"
+        name='name1'
       />
       <input
         type="text"
         value={input2}
         onChange={(e) => setInput2(e.target.value)}
         data-testid="input2"
+       name='name2'
       />
       <button onClick={calculateRelationship} data-testid="calculate_relationship">
         Calculate Relationship
